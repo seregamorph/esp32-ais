@@ -1,2 +1,29 @@
 # esp32-ais
-Automatic Identification System receiver
+## Automatic Identification System receiver ##
+
+### Постановка задачи ###
+Хочется иметь возможность в режиме реального времени видеть на карте как координаты своего местонахождения и трек движения
+так и координаты и курсы судов, находящихся в непосредственной близости до нескольких десятков км от нас.
+В качестве монитора использовать как сам приемник с тач дисплеем, так и возможность подключить его через BT/Wi-Fi/USB к планшету/телефону.
+При этом устройство (приемник) должен быть автономным и компактным, не тяжелым, с возможностью носить в кармане одежды.
+
+Разработка на базе платформы ESP32 как достаточно "продвинутого" чипа.
+В качестве ВЧ-части для приема сигнала AIS используется чип Si4x6x или NRX1 от Radiometrix (требует внешнего демодулятора GMSK).
+Для определения собственных координат используется плата GPS аля GT-U7.
+
+Тачскрин на базе контроллера ILI9486 3,5" 320x480 с тач чипом xpt2046 или аналог
+Для отрисовки интерфейса используется библиотека LVGL, портированная на ESP32 https://github.com/lvgl/lv_port_esp32
+
+### Первопроходцы ###
+В качестве вдохновения для реализации были взяты такие проекты, как:
+<https://github.com/peterantypas/maiana>  открытый проект для создание приемо-передатчика AIS
+<https://github.com/astuder/dAISy> бюджетный приемник AIS, обсуждение <https://forum.43oh.com/topic/4833-potm-daisy-a-simple-ais-receiver/>
+<http://san.net.ru/ais/receiver-add.html> приемник AIS на чипе SI4463, готовый модуль E30-170T20D
+<https://github.com/IDeTIC-AIS/RX-AIS AIS> приемник на базе чипа RX1 от Radiometrix и Arduino
+
+### Дополнительно: ###
+<https://github.com/ttlappalainen/NMEA2000>  библиотека NMEA2000 C++
+<https://gpsd.gitlab.io/gpsd/AIVDM.html> описание протокола AIS
+<http://ais.tbsalling.dk/> AIS декодер онлайн
+<https://www.aggsoft.com/ais-decoder.htm> AIS декодер онлайн
+<https://www.maritec.co.za/aisvdmvdodecoding> AIS декодер онлайн
