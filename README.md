@@ -22,8 +22,8 @@
 В качестве вдохновения для реализации были взяты такие проекты, как:
 1. <https://github.com/peterantypas/maiana>  открытый проект для создание приемо-передатчика AIS
 2. <https://github.com/astuder/dAISy> бюджетный приемник AIS, обсуждение <https://forum.43oh.com/topic/4833-potm-daisy-a-simple-ais-receiver/>
-3. <http://san.net.ru/ais/receiver-add.html> приемник AIS на чипе SI4463, готовый модуль E30-170T20D
-4. <https://github.com/IDeTIC-AIS/RX-AIS AIS> приемник на базе чипа RX1 от Radiometrix и Arduino
+3. <http://san.net.ru/ais/receiver-add.html> AIS приемник на чипе SI4463, готовый модуль E30-170T20D
+4. <https://github.com/IDeTIC-AIS/RX-AIS> AIS приемник на базе чипа RX1 от Radiometrix и Arduino
 
 ### Дополнительно: ###
 * <https://github.com/ttlappalainen/NMEA2000>  библиотека NMEA2000 C++
