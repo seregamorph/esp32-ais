@@ -16,14 +16,14 @@
 
 ### Первопроходцы ###
 В качестве вдохновения для реализации были взяты такие проекты, как:
-<https://github.com/peterantypas/maiana>  открытый проект для создание приемо-передатчика AIS
-<https://github.com/astuder/dAISy> бюджетный приемник AIS, обсуждение <https://forum.43oh.com/topic/4833-potm-daisy-a-simple-ais-receiver/>
-<http://san.net.ru/ais/receiver-add.html> приемник AIS на чипе SI4463, готовый модуль E30-170T20D
-<https://github.com/IDeTIC-AIS/RX-AIS AIS> приемник на базе чипа RX1 от Radiometrix и Arduino
+*<https://github.com/peterantypas/maiana>  открытый проект для создание приемо-передатчика AIS
+*<https://github.com/astuder/dAISy> бюджетный приемник AIS, обсуждение <https://forum.43oh.com/topic/4833-potm-daisy-a-simple-ais-receiver/>
+*<http://san.net.ru/ais/receiver-add.html> приемник AIS на чипе SI4463, готовый модуль E30-170T20D
+*<https://github.com/IDeTIC-AIS/RX-AIS AIS> приемник на базе чипа RX1 от Radiometrix и Arduino
 
 ### Дополнительно: ###
-<https://github.com/ttlappalainen/NMEA2000>  библиотека NMEA2000 C++
-<https://gpsd.gitlab.io/gpsd/AIVDM.html> описание протокола AIS
-<http://ais.tbsalling.dk/> AIS декодер онлайн
-<https://www.aggsoft.com/ais-decoder.htm> AIS декодер онлайн
-<https://www.maritec.co.za/aisvdmvdodecoding> AIS декодер онлайн
+1. <https://github.com/ttlappalainen/NMEA2000>  библиотека NMEA2000 C++
+2. <https://gpsd.gitlab.io/gpsd/AIVDM.html> описание протокола AIS
+3. <http://ais.tbsalling.dk/> AIS декодер онлайн
+4. <https://www.aggsoft.com/ais-decoder.htm> AIS декодер онлайн
+5. <https://www.maritec.co.za/aisvdmvdodecoding> AIS декодер онлайн
