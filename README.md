@@ -20,6 +20,7 @@
 
 ### Первопроходцы ###
 В качестве вдохновения для реализации были взяты такие проекты, как:
+0. <https://github.com/cmbahadir/AIS-Receiver> AIS приемник на ESP32 и Si4464 с разводкой печатных плат
 1. <https://github.com/peterantypas/maiana>  открытый проект для создание приемо-передатчика AIS
 2. <https://github.com/astuder/dAISy> бюджетный приемник AIS, обсуждение <https://forum.43oh.com/topic/4833-potm-daisy-a-simple-ais-receiver/>
 3. <http://san.net.ru/ais/receiver-add.html> AIS приемник на чипе SI4463, готовый модуль E30-170T20D
@@ -31,3 +32,7 @@
 * <http://ais.tbsalling.dk/> AIS декодер онлайн
 * <https://www.aggsoft.com/ais-decoder.htm> AIS декодер онлайн
 * <https://www.maritec.co.za/aisvdmvdodecoding> AIS декодер онлайн
+
+
+### TODO: ###
+0. Добавить сенсор электронного компаса, см чипы Bosch BMM150/BNO055, HMC5883L, LSM303, AK09912, готовые сборки аля GY-521, GY-273
