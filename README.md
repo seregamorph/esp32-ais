@@ -41,3 +41,16 @@
 ```shell
 git clone --recurse-submodules -j8 git@github.com:seregamorph/esp32-ais.git
 ```
+
+### Обновление из репозитория
+```shell
+git pull origin master
+git submodule update --recursive
+```
+
+### Синхронизация субмодулей
+```shell
+git submodule sync
+git add components/lvgl_esp32_drivers
+git commit
+```
