@@ -36,3 +36,8 @@
 
 ### TODO: ###
 1. Добавить сенсор электронного компаса, см чипы Bosch BMM150/BNO055, HMC5883L, LSM303, AK09912, готовые сборки аля GY-521, GY-273
+
+### Выкачивание репозитория
+```shell
+git clone --recurse-submodules -j8 git@github.com:seregamorph/esp32-ais.git
+```
