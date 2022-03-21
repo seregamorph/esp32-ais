@@ -74,8 +74,12 @@ Vcc                     3.3v
 //см https://docs.lvgl.io/v7/en/html/porting/tick.html
 #define LV_TICK_PERIOD_MS 10
 
-#define DISP_HOR_RES 480
-#define DISP_VERT_RES 320
+#ifndef DISP_HOR_RES
+    #define DISP_HOR_RES 480
+#endif
+#ifndef DISP_VERT_RES
+    #define DISP_VERT_RES 320
+#endif
 
 //описатель буфера дисплея
 static lv_disp_draw_buf_t disp_buf;
@@ -245,7 +249,7 @@ void _create_main_screen() {
 
     lv_disp_set_bg_color(lv_disp_get_default(), lv_color_make(255, 0, 0)); 
 
-    //lv_example_btn_1();
+    lv_example_btn_1();
 }
 
 
