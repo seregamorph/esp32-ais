@@ -5,7 +5,9 @@
 Настройку компонент библиотеки см https://github.com/lvgl/lv_port_esp32 раздел "Use LVGL in your ESP-IDF project"
 
 Для запуска конфигуратора ESP32 в консоли (значок Platformio на тулбаре слева->Miscellaneous->New terminal) выполнить:
-pio run -t menuconfig
+pio run -t menuconfig --environment esp32doit-devkit-v1
+pio run -t menuconfig --environment esp32doit-devkit-v1-sergey
+pio run -t menuconfig --environment az-delivery-devkit-v4-sergey-480
 
 в конфигураторе ESP32 настроить подключение тачдисплея - параметры SPI, см детали в lv_screen.c
 

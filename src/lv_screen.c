@@ -15,14 +15,14 @@ https://github.com/lvgl/lv_port_esp32  актуальное портирован
 необходимо соединить выводы ESP32 и дисплея согласно таблице + настроить значения выводов в menuconfig
 пины дисплей            пины ESP32 devkit1
 тачпад
-T_IRQ                   D27  
+T_IRQ (PEN?)            D27  
 T_DO (MISO)             D19
 T_DIN (MOSI)            D23
 T_CS                    D25
 T_CLK (SCK)             D18
 дисплей
 SDO (MISO)              <не используется>
-LED (подсветка)         D15 (3.3v)
+LED (BL?)               D15 (3.3v)
 SCK (CLK)               D14
 SDI (MOSI)              D13
 DC                      D26
