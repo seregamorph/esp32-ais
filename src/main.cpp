@@ -21,8 +21,9 @@ pio run -t menuconfig --environment az-delivery-devkit-v4-sergey-480
 #include "sys/unistd.h" //для usleep
 #include "soc/rtc.h"
 
-#include "lv_screen.h"
-
+extern "C" {
+    #include "lv_screen.h"
+}
 
 #define LOG_LOCAL_LEVEL ESP_LOG_VERBOSE
 #define TAG "MAIN"
@@ -60,12 +61,12 @@ void _set_loggers() {
 
 
 
-//точка входа в программу
-void app_main() {
+extern "C" void app_main() {
+    printf("Entry point\n");
+
     _set_loggers();
 
     _print_chip_info();
 
     lv_screen_init();
-
 }
