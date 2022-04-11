@@ -54,3 +54,19 @@ git submodule sync
 git add components/lvgl_esp32_drivers
 git commit
 ```
+
+```shell
+pio run -e esp32doit-devkit-v1 -t clean  
+pio run -e esp32doit-devkit-v1
+
+pio run -e esp32doit-devkit-v1-sergey -t clean  
+pio run -e esp32doit-devkit-v1-sergey
+
+pio run -e esp32doit-devkit-v1-sergey -t upload 
+```
+
+TODO
+```ini
+;Build options
+build_flags = -std=c++14 -Wno-unknown-pragmas
+```
