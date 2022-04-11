@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "sdkconfig.h": "c"
+        "sdkconfig.h": "c",
+        "semphr.h": "c"
     }
 }
